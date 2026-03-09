@@ -3,9 +3,9 @@
 "use client";
 
 import { Input } from "../Input";
-import { useInputs } from "@/hooks/useInputs";
+import { useInputs } from "@/hook/useInputs";
 
-export const SignupForm = () => {
+export const SignupForm2 = () => {
   const { values, handleChange, handleDelete } = useInputs({
     email: "",
     password: "",

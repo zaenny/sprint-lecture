@@ -5,7 +5,7 @@
 import { useState } from "react";
 import { Input } from "../Input";
 
-export const LoginForm = () => {
+export const LoginForm2 = () => {
   const [values, setValues] = useState({
     email: "",
     password: "",

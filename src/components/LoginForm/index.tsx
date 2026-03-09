@@ -4,9 +4,9 @@
 
 import { useState } from "react";
 import { Input } from "../Input";
-import { useInputs } from "@/hooks/useInputs";
+import { useInputs } from "@/hook/useInputs";
 
-export const LoginForm = () => {
+export const LoginForm3 = () => {
   const { values, handleChange, handleDelete } = useInputs({
     email: "",
     password: "",

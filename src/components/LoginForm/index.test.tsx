@@ -1,10 +1,10 @@
 // src/components/LoginForm/index.test.tsx
 
 import { render, screen } from "@testing-library/react";
-import LoginForm from ".";
+import { LoginForm3 } from ".";
 
 test("로그인 폼이 올바르게 렌더링 되는지 확인", () => {
-  render(<LoginForm />);
+  render(<LoginForm3 />);
 
   // 라벨로 입력(input) 요소 찾기
   const emailByLabel = screen.getByLabelText("이메일:");

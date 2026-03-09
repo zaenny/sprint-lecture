@@ -1,8 +1,8 @@
 import { render, screen } from "@testing-library/react";
-import SignupForm from ".";
+import { SignupForm2 } from ".";
 
 test("signup form test", () => {
-  render(<SignupForm />);
+  render(<SignupForm2 />);
 
   const emailInput = screen.getByLabelText("이메일");
   const passwordInput = screen.getByLabelText("비밀번호");
